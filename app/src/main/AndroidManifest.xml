@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aula7.asynctaskinternet">
+    <!--permiso para obtener el estado dela red-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--permiso para conectarnos a ineternet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
